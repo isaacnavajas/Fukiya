@@ -1,0 +1,57 @@
+/* Tema básico de WordPress */
+/*
+Theme Name: Fukiya
+Description: Un tema a medida en WordPress para programar
+Version: 1.0
+Author: Isaac Navajas Pozo
+*/
+
+*{
+    background: #fff2df;
+}
+
+.imageSize{
+    width:100%;
+}
+
+
+h1{
+    font-size: 90px !important;
+}
+
+.fontOne{
+    margin-top:100px;
+    font-family: 'Fuente_titulo';    
+    font-weight: 800;
+    font-size: 45px;
+    color:#1e1a17
+}
+
+.fontTwo{
+  font-family: 'Fuente_texto';  
+  font-size: 18px;
+  color:#413c3c;
+}
+
+.fontThree{
+    font-family: 'Fuente_titulo';    
+    font-weight: 800;
+    font-size: 30px;
+    color:#413c3c;
+}
+
+
+.japan{
+    font-size: 18px;
+    color:#ff5500;
+}
+
+.carpetas{
+    padding-top:60px;
+    padding-bottom:50px;
+    color:#ff5500;
+}
+
+.top-imagen{
+    margin-top:50px;
+}

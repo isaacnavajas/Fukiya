@@ -1,0 +1,1 @@
+<p>Esta es la página dinámica para single</p>

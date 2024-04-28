@@ -2,7 +2,8 @@
 
 
 ?>
-    <div class="container">
+
+<div class="container">
         <div class="row">
             <div class="col-6">
                 <h1 class="fontOne">Fukiya</h1>
@@ -21,9 +22,6 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/src/FUKIYA_STUDIO__1.png" alt="MDN" class="imageSize"/>                
             </div>
         </div>
-        
-        
-        
         
         <div class="row">
             <div class="col-6">
@@ -87,10 +85,6 @@
                 
          </div>
          
-         
-         
-         
-         
           <div class="row top-imagen">
             <div class="col-6" >
                 <h2 class="fontOne">Admin</h2>
@@ -114,9 +108,6 @@
             </div>
         </div>
         
-        
-        
-        
         <div class="row ">
             <div class="col-6" >
                 <h2 class="fontOne">Pages</h2>
@@ -137,8 +128,6 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/src/FUKIYA_STUDIO__10.png" alt="MDN" class="imageSize top-imagen"/>                
             </div>
         </div>
-        
-        
         
                                          
           <div class="row">
@@ -165,9 +154,6 @@
             </div>
         </div>
         
-        
-        
-        
                  
           <div class="row top-imagen">
             <div class="col-6" >
@@ -184,10 +170,6 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/src/FUKIYA_STUDIO__9.png" alt="MDN" class="imageSize"/>                
             </div>
         </div>
-        
-        
-        
-
         
                          
           <div class="row">
@@ -209,9 +191,7 @@
             </div>
         </div>
         
-        
-        
-         
+    
           <div class="row">
             <div class="col-6">
                 <h2 class="fontOne">Carpeta raíz</h2>
@@ -237,8 +217,5 @@
             </div>
         </div>
         
-        
-    
     </div>
-    
     

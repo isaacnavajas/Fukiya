@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+
     <div class="container">
         <div class="row">
             <div class="col-6">
@@ -18,9 +19,6 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/src/FUKIYA_STUDIO__1.png" alt="MDN" class="imageSize"/>                
             </div>
         </div>
-        
-        
-        
         
         <div class="row">
             <div class="col-6">
@@ -84,10 +82,6 @@
                 
          </div>
          
-         
-         
-         
-         
           <div class="row top-imagen">
             <div class="col-6" >
                 <h2 class="fontOne">Admin</h2>
@@ -111,9 +105,6 @@
             </div>
         </div>
         
-        
-        
-        
         <div class="row ">
             <div class="col-6" >
                 <h2 class="fontOne">Pages</h2>
@@ -134,8 +125,6 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/src/FUKIYA_STUDIO__10.png" alt="MDN" class="imageSize top-imagen"/>                
             </div>
         </div>
-        
-        
         
                                          
           <div class="row">
@@ -162,26 +151,22 @@
             </div>
         </div>
         
-        
-        
-        
                  
           <div class="row top-imagen">
             <div class="col-6" >
                 <h2 class="fontOne">Src</h2>
                 <spam class="japan">すべてのために</spam>
                 <p class="fontTwo">
-                    <strong>src: </strong>La carpeta src va ser utilizada como origen de los archivos utilizados para el frontend, como las imágenes, las fuentes o librerías como Bootstrap.
+                    <strong>src: </strong>La carpeta "src" desempeña un papel fundamental como origen de los recursos esenciales utilizados en el frontend de tu tema de WordPress Fukiya. En esta ubicación, podrás agregar una variedad de archivos cruciales que contribuyen a la estética, funcionalidad y experiencia del usuario en tu sitio web. Entre estos recursos se incluyen imágenes cuidadosamente seleccionadas, fuentes tipográficas distintivas y bibliotecas de terceros, como Bootstrap, que añaden robustez y flexibilidad al diseño y comportamiento del frontend.
+                </p>
+                <p class="fontTwo">
+                    Para la inclusión de la biblioteca Bootstrap en la carpeta "src", se recomienda agregar los siguientes archivos en vez de toda la librería: bootstrap.min.css, bootstrap-icons.min.css, bootstrap-icons.woff, bootstrap-icons.woff2 y bootstrap.bundle.min.js.
                 </p>
             </div>
             <div class="col-6">
                 <img src="<?php echo get_template_directory_uri(); ?>/src/FUKIYA_STUDIO__9.png" alt="MDN" class="imageSize"/>                
             </div>
         </div>
-        
-        
-        
-
         
                          
           <div class="row">
@@ -203,21 +188,25 @@
             </div>
         </div>
         
-        
-        
-         
+    
           <div class="row">
             <div class="col-6">
                 <h2 class="fontOne">Carpeta raíz</h2>
                 <spam class="japan">あなたにとって最高のテーマ</spam>
                 <p class="fontTwo">
-                    Fukiya es un tema de WordPress desarrollado por Isaac Navajas Pozo, diseñado específicamente para el desarrollo con código. ¿Alguna vez te has encontrado en la situación de tener que trabajar en un proyecto que debería ser en PHP pero te ves obligado a implementarlo en WordPress? Pues bien, este tema te ofrece la solución perfecta para ese escenario. 
+                    La carpeta raíz del tema alberga archivos esenciales que son críticos para garantizar el correcto funcionamiento y la cohesión del tema. Además, dentro de esta ubicación central, se encuentran otros archivos destinados a la configuración y personalización del tema, añadiendo una capa adicional de versatilidad y adaptabilidad a la experiencia de desarrollo del usuario:
                 </p>
                 <p class="fontTwo">
-                    Con Fukiya, podrás abordar proyectos que requieran un enfoque más técnico y personalizado dentro del entorno de WordPress. Su estructura flexible y sus características avanzadas te permiten sacar el máximo provecho de la plataforma, mientras aprovechas la potencia y la flexibilidad del código PHP. Desde la gestión de bases de datos, gestión directa de plugins y shortcodes, hasta la personalización de funciones, Fukiya te brinda las herramientas necesarias para llevar tus proyectos al siguiente nivel en WordPress.
+                    <strong>footer.php: </strong>Para programar en PHP el footer.
                 </p>
                 <p class="fontTwo">
-                Fukiya no solo simplifica el proceso de desarrollo en WordPress, sino que también ofrece una amplia gama de opciones de personalización y una sólida base para la creación de sitios web dinámicos y funcionales. 
+                    <strong>header.php: </strong>Para programar en PHP el header
+                </p>
+                <p class="fontTwo">
+                    <strong>script.js: </strong>Para programar el javascript del frontend.
+                </p>
+                <p class="fontTwo">
+                    <strong>style.css: </strong>Para programar el CSS del frontend.
                 </p>
             </div>
             <div class="col-6">
@@ -225,8 +214,6 @@
             </div>
         </div>
         
-        
-    
     </div>
     
 <?php get_footer(); ?>

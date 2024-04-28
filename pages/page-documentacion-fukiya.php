@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-    <div class="container">
+<div class="container">
         <div class="row">
             <div class="col-6">
                 <h1 class="fontOne">Fukiya</h1>
@@ -208,6 +208,9 @@
                 <p class="fontTwo">
                     <strong>style.css: </strong>Para programar el CSS del frontend.
                 </p>
+                <p class="fontTwo">
+                    <strong>page.php: </strong> Se utiliza para mostrar el header, footer y contenido de las páginas estáticas del sitio web. Esto quiere decir que las páginas que puedan ser dinámicas tenéis que agregar <span class="japan"><?php get_footer(); ?> y <?php get_header(); ?></span>. 
+                </p>
             </div>
             <div class="col-6">
                 <img src="<?php echo get_template_directory_uri(); ?>/src/FUKIYA_STUDIO__2.png" alt="MDN" class="imageSize"/>                
@@ -215,5 +218,5 @@
         </div>
         
     </div>
-    
+
 <?php get_footer(); ?>
